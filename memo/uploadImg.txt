@@ -1,0 +1,11 @@
+画像編集→アップロード→DOMのsrcをその画像ファイルパスにする。
+js画像拡大調整
+適用ボタン押下→ajax,
+js側で各値を計算する。(拡大倍率1〜2倍)(rangeValが0なら1, 100なら2) 1 + (0.01 * rangeVal)
+top値, left値も送る。PHP側で1/2にする。
+
+php 画像のcropとresizeを行い、元の画像を上書き
+	パスを変換する。
+
+dom
+	topImgSrcを上記変換pathにする。uploadDialog: display:none, 

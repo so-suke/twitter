@@ -1,0 +1,17 @@
+フォローしている人の確認出来る。
+
+そのプロフィールページのユーザがフォローしている人を取得。
+
+例えば、自分のユーザIDを(1)とした場合
+select f.to_user_id
+from follows as f
+where f.from_user_id = 1
+
+name, screen_name, is_following, is_followed, profile_content, 
+
+ゆくゆくは、画像のURLなども取得してきたい。
+
+■画面を作る。
+プロフィール画面の右側を一括で入れ替える。
+入れ替えるもの-> ツイートリスト, おすすめユーザとか。
+

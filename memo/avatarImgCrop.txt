@@ -1,0 +1,28 @@
+left:40pxを基点としたleft位置
+top:-280pxを基点としたtop位置
+を取得。
+
+■width: 361px; height: 240px; position: relative; top: -280px; left: 40px;
+imgをwidth: 361px; height: 240px;にリサイズし、
+x:40 - 40(0px), y: -280 - (-280)(0px)の位置から
+x,y:240px切りとり
+
+■width: 361px; height: 240px; position: relative; top: -280px; left: -81px;
+imgをwidth: 361px; height: 240px;にリサイズし、
+x: 40 - (-81)(121px), y: -280 - (-280)(0px)の位置から
+x,y:240px切りとり
+
+■width: 722px; height: 480px; position: relative; top: -280px; left: 40px;
+imgをwidth: 722px; height: 480px;にリサイズし、
+x: 40 - (-40)(0px), y: -280 - (-280)(0px)の位置から
+x,y:240px切りとり
+
+■width: 722px; height: 480px; position: relative; top: -280px; left: -442px;
+imgをwidth: 722px; height: 480px;にリサイズし、
+x: 40 - (-442)(482px), y: -280 - (-280)(0px)の位置から
+x,y:240px切りとり
+
+■width: 722px; height: 480px; position: relative; top: -321px; left: -392px;
+imgをwidth: 722px; height: 480px;にリサイズし、
+x: 40 - (-392)(432px), y: -280 - (-321)(41px)の位置から
+x,y:240px切りとり

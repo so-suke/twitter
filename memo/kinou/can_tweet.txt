@@ -1,0 +1,14 @@
+ツイート出来る。
+
+tweets table にデータをインサートする。
+
+ツイートするユーザid : auth_u_id
+text : input_val
+
+ツイートボタン押下からツイートが表示されるまで
+ボタン押下→ajax write to tweets table->cnt up,new_tweets_cnt
+再度やると、2件になる。
+js側でnew_tweets_cntを計算する。
+new_tweets_cnt 初期値0, tweet each time, then cntUP
+
+if new_tweets_cnt !== 0 新規ツイートメッセージボックスを表示

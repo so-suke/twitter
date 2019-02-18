@@ -1,0 +1,65 @@
+15:35までつぎやること探す
+40タグ移動　ツイート外す
+45ツイートでプロフィール移動
+50タグ移動関数化　変える　読み込む　書き直す
+16:10もう少し挑戦
+30まで次ぎやること探す
+35までツイートボタンおしたらモーダルがでる
+47まで状況整理
+to 50, change name modal
+to 55 update modal content
+to 17:00 update css title, bg-color
+to: 10 作戦会議
+to 53 make newTweetCntShowBox
+to 57 cnt !== show
+to 05 make AC function insertNewTweet
+to 07 make vuejs function
+	@click setting in html
+	make @click function in vuejs
+		to 14 axios send newTweetInfo, ifSuccess then cntUp new Tweet cnt.
+to19:10 click 新しいツイートを見る ajax, get all tweets and show.
+	06ツイートボタン押下で新規ツイートidを返す、
+	0比較して、最小のidのものを保存。
+	40見るボタン押下で、
+	45そのid以上の該当tweetsを取得。
+	43流しこむ
+	new_tweets = [], 
+	insertNewTweet時、新規tweet_idも同時に取得してくる。
+
+to 22:10ツイートボックスの仕組み考える
+	最初は、input.boxで、active状態でinputboxをhiddenし、textareaにする。
+	最初もtextareaで高さを高くする。
+to 22:30リクナビ　バックエンド中心に探す
+to 22:35qiita フロント、バック、インフラ、違いを見る
+to 22:40wantedly バックエンド中心に探す
+to 22:42 ツイートボックス作りはじめる
+　テキストエリアにする。
+to 23:00 作戦会議
+	input, click時, テキストエリアに切り替えたい。
+	click時、inputを消して、テキストエリアを出す。
+	.tweet-form .condensed .tmp-tweet-box display:block
+	.tweet-form .tmp-tweet-box display:none
+	.tweet-form .condensed .tweet-box display:none
+	.tweet-form .tweet-box display:block
+to 10 focus to textarea
+to 15 when focus out, then add condensed
+to 50 ツイートボックスとツイートボタン以外をクリックしたらcondensedにする。
+to 55 condensedでなければ、弾く
+to 06 ツイートできるまで作戦会議
+to 12 インサート確認
+to 14 ホームへリダイレクト
+to 14 tweet kenkyu
+to 36 huro
+to 01:00 update profile img
+to :05 chage image desine
+:10 bottom position tyousei
+:15 change img right text position
+:20 img waku
+:23 text line-height change
+:25 change img
+:38 ツイートしました。のcss属性遷移を動画キャプチャで調べる
+:43検証
+:49 仕組み記載
+	alert-messageがhidden ツイート送信時、hiddenをなしにする。styleのtopを -40pxから46pxにする。
+:51 css記載、模擬ツイート送信関数を作成してテスト
+:59 テス

@@ -1,0 +1,41 @@
+{
+	"folders": [
+		{
+			"path": "app/Http/Controllers"
+		},
+		{
+			"path": "database/migrations"
+		},
+		{
+			"path": "database/seeds"
+		},
+		{
+			"path": "resources/views"
+		},
+		{
+			"path": "routes"
+		},
+		{
+			"path": "public/img"
+		},
+		{
+			"path": "public/css"
+		},
+		{
+			"path": "public/js"
+		},
+		{
+			"path": "memo"
+		},
+		{
+			"path": "storage/logs"
+		},
+		{
+			"path": "app/includes"
+		},
+		{
+			"path": "public/profile_avatar_imgs"
+		}
+	],
+	"settings": {}
+}
